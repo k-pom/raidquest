@@ -1,0 +1,85 @@
+ability: &ability
+
+    class:
+        x: 210
+        y: 380
+        font_size: 18
+        font: FiraSans-Bold
+
+    name:
+        x: 70
+        y: 40
+        font_size: 30
+        wordwrap: 35
+        font: FiraSans-Bold
+
+    cooldown:
+        x: 20
+        y: 52
+        font_size: 35
+        font: FiraSans-Regular
+
+    basic:
+        depends_on:
+            attribute: basic
+            comparison: present
+        x: 70
+        y: 60
+        font_size: 20
+        font: FiraSans-Bold
+
+    damage_type:
+        depends_on:
+            attribute: icon
+            comparison: present
+        x: 20
+        y: 90
+        source_width: 40
+        source_height: 40
+        source_image: data/images/icons/{{icon}}.png
+        render_with_variables: source_image
+
+    special_type:
+        depends_on:
+            attribute: keyword
+            comparison: present
+        x: 20
+        y: 140
+        source_width: 40
+        source_height: 40
+        source_image: data/images/icons/{{keyword}}.png
+        render_with_variables: source_image
+
+    health:
+        x: 20
+        y: 52
+        font_size: 45
+        color: red
+        font: FiraSans-Regular
+
+    text:
+        x: 20
+        y: 260
+        font_size: 20
+        wordwrap: 30
+        font: FiraSans-Regular
+
+    attack:
+        x: 20
+        y: 230
+        font_size: 20
+        font: FiraSans-Regular
+
+    defense:
+        x: 20
+        y: 200
+        font_size: 20
+        font: FiraSans-Regular
+
+basic: *ability
+
+item:  *ability
+
+minion: *ability
+
+character: *ability

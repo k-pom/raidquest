@@ -1,0 +1,345 @@
+-
+    id: the_cleric
+    card_type: character
+    class: cleric
+    name: The Cleric
+    health: 15
+-
+    id: the_berserker
+    card_type: character
+    class: berserker
+    name: The Berserker
+    health: 15
+-
+    id: the_Assassin
+    card_type: character
+    class: assassin
+    name: The Assassin
+    health: 15
+-
+    id: cleric_basic_1
+    card_type: ability
+    basic: Basic
+    class: cleric
+    name: Smite
+    cooldown: 2
+    icon: magic
+    text: "1 Magic Damage"
+-
+    id: cleric_basic_2
+    card_type: ability
+    basic: Basic
+    class: cleric
+    name: Lesser Heal
+    cooldown: 2
+    keyword: heal
+    text: "Heal 2"
+-
+    id: cleric_basic_3
+    card_type: ability
+    basic: Basic
+    class: cleric
+    name: Blessing
+    cooldown: 3
+    text: "Choose a character to get +3 on their next attack"
+-
+    id: cleric_item_1
+    card_type: item
+    class: cleric
+    keyword: heal
+    name: Healing Salve
+    text: "Item\nUse: Heal 4"
+-
+    id: cleric_item_2
+    card_type: item
+    class: cleric
+    name: Daemonbane
+    text: "Item\nYour Magic Damage is +2 "
+-
+    id: cleric_action_1
+    card_type: item
+    class: cleric
+    name: Divine Strike
+    cooldown: 1
+    text:  Destroy a minion with 2 or less health
+-
+    id: cleric_action_2
+    card_type: item
+    class: cleric
+    name: Holy Aura
+    cooldown: 2
+    keyword: constant
+    text: "Constant: Damage you take is -1"
+-
+    id: cleric_action_3
+    card_type: item
+    class: cleric
+    name: Inspire Fear
+    cooldown: 3
+    text: Return a minion to the minion deck
+-
+    id: cleric_action_4
+    card_type: item
+    class: cleric
+    name: Divine Protection
+    cooldown: 4
+    keyword: instant
+    text: "Instant: Give a character +2 Range defense"
+-
+    id: cleric_action_5
+    card_type: item
+    class: cleric
+    name: Drain Essence
+    cooldown: 4
+    icon: magic
+    keyword: heal
+    text: 1 Magic Damage. Heal 1.
+
+
+-
+    id: berserker_basic_1
+    card_type: ability
+    basic: Basic
+    class: berserker
+    name: Headbutt
+    cooldown: 3
+    icon: melee
+    text: 2 Melee Damage
+-
+    id: berserker_basic_2
+    card_type: ability
+    basic: Basic
+    class: berserker
+    name: Battle Cry
+    cooldown: 4
+    icon: melee
+    keyword: constant
+    text: "Constant: +1 Melee damage"
+-
+    id: berserker_basic_3
+    card_type: ability
+    basic: Basic
+    class: berserker
+    name: Punch
+    cooldown: 1
+    icon: melee
+    text: 1 Melee Damage
+-
+    id: berserker_item_1
+    card_type: item
+    class: berserker
+    name: Warhammer
+    text: "Item\nYour Melee Damage is +2 "
+-
+    id: berserker_item_2
+    card_type: item
+    class: berserker
+    name: Rage Potion
+    text: "Item\nUse: You get +4 on your next attack"
+-
+    id: berserker_action_1
+    card_type: item
+    class: berserker
+    name: Charge
+    cooldown: 3
+    keyword: instant
+    text: "Instant: Cancel a minion's attack"
+-
+    id: berserker_action_2
+    card_type: item
+    class: berserker
+    name: Berserk
+    cooldown: 4
+    icon: melee
+    text: 1 Melee Damage for each damage you have taken
+-
+    id: berserker_action_3
+    card_type: item
+    class: berserker
+    name: Reckless Attack
+    cooldown: 2
+    icon: melee
+    text: 4 Melee damage. Take 2 damage.
+-
+    id: berserker_action_4
+    card_type: item
+    class: berserker
+    name: Rage
+    cooldown: 4
+    icon: melee
+    keyword: instant
+    text: "Instant: After you take Magic damage, 3 Melee Damage"
+-
+    id: berserker_action_5
+    card_type: item
+    class: berserker
+    name: Whirlwind
+    cooldown: 3
+    icon: melee
+    text: 1 Melee damage to every character
+
+-
+    id: assassin_basic_1
+    card_type: ability
+    basic: Basic
+    class: assassin
+    name: Lethal Shot
+    cooldown: 1
+    icon: ranged
+    text: 1 Ranged Damage
+-
+    id: assassin_basic_2
+    card_type: ability
+    basic: Basic
+    class: assassin
+    name: Dodge
+    cooldown: 4
+    keyword: instant
+    text: "Instant: Cancel melee damage you would take"
+-
+    id: assassin_basic_3
+    card_type: ability
+    basic: Basic
+    class: assassin
+    name: Ambush
+    icon: ranged
+    cooldown: 3
+    keyword: instant
+    text: "Instant: After a minion is played, 2 Ranged damage"
+
+-
+    id: assassin_item_1
+    card_type: item
+    class: assassin
+    name: Hand Crossbow
+    text: "Item\nYour Ranged Damage is +2 "
+-
+    id: assassin_item_2
+    card_type: item
+    class: assassin
+    name: Poison
+    text: "Item\nUse: Destroy a minion damaged this turn."
+
+
+-
+    id: assassin_action_1
+    card_type: item
+    class: assassin
+    name: Crippling Shot
+    cooldown: 4
+    keyword: instant
+    text: "Instant: Cancel an attack against you"
+-
+    id: assassin_action_2
+    card_type: item
+    class: assassin
+    name:  Lay in wait
+    cooldown: 3
+    keyword: instant
+    text: "Instant: 1 Ranged Damage"
+-
+    id: assassin_action_3
+    card_type: item
+    class: assassin
+    name: Lucky Shot
+    cooldown: 3
+    icon: ranged
+    text: 4 Ranged Damage. Skip your next refresh set
+-
+    id: assassin_action_4
+    card_type: item
+    class: assassin
+    name: Shot from Behind
+    cooldown: 2
+    icon: ranged
+    text: 2 Ranged Damage
+-
+    id: assassin_action_5
+    card_type: item
+    class: assassin
+    name: Easy Mark
+    cooldown: 3
+    text: Place 2 wounds on a character
+
+-
+    id: minion_1
+    faction: necromancer
+    card_type: minion
+    name: Zombie
+    health: 2
+    icon: melee
+    attack: 1 Melee Damage
+    text: Attacks each player after their turn
+-
+    id: minion_2
+    faction: necromancer
+    card_type: minion
+    name: Goblin Shaman
+    health: 3
+    attack: 1 Magic Damage
+    icon: magic
+    text: Attacks the player with the most abilities in play
+    defense: 2 Magic Defense
+-
+    id: minion_3
+    faction: necromancer
+    card_type: minion
+    name: Orc Archer
+    health: 4
+    icon: ranged
+    attack: 2 Ranged Damage
+    text: Attacks the player with the fewest abilities in play
+    defense: 2 Range Defense
+-
+    faction: necromancer
+    id: minion_4
+    card_type: minion
+    name: Troll Warrior
+    icon: melee
+    health: 5
+    attack: 2 Melee Damage
+    text: Attacks the player with the most cards in their hand
+    defense: 2 Melee Defense
+-
+    id: minion_5
+    faction: necromancer
+    card_type: minion
+    name: Ogre Berserker
+    health: 6
+    icon: melee
+    attack: 3 Melee Damage
+    text: Attacks the player with the lowest health
+-
+    id: minion_6
+    card_type: minion
+    faction: necromancer
+    name: Demon
+    health: 7
+    icon: magic
+    attack: 3 Magic Damage
+    text: Attacks the player the the highest health
+-
+    id: minion_7
+    card_type: minion
+    faction: necromancer
+    name: Dragon
+    health: 8
+    icon: ranged
+    attack: 3 Ranged Damage
+    text: Attacks the player with the most items
+-
+    id: minion_8
+    card_type: minion
+    faction: necromancer
+    name: Warlord
+    health: 9
+    text: Each other minion has +3 Attack 3 Defense
+-
+    id: minion_9
+    card_type: minion
+    faction: necromancer
+    name: Necromancer
+    health: 10
+    icon: magic
+    attack: 4 Magic Damage
+    text: Attacks each player after their turn
