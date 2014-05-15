@@ -55,6 +55,9 @@
     class: cleric
     name: Daemonbane
     text: "Item\nYour Magic Damage is +2 "
+    artist: afengo
+    filename: daemonbane.png
+
 -
     id: cleric_action_1
     card_type: item
