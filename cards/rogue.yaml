@@ -1,0 +1,90 @@
+-
+    id: the_assassin
+    card_type: character
+    class: assassin
+    name: The Assassin
+    health: 15
+    health: 10
+    threat: 5
+    faith: 0
+    wealth: 5
+
+-
+    id: assassin_basic_1
+    card_type: ability
+    basic: Basic
+    class: assassin
+    name: Easy Mark
+    cooldown: 1
+    attack: 1
+-
+    id: assassin_basic_2
+    card_type: ability
+    basic: Basic
+    class: assassin
+    name: Distract
+    cooldown: 4
+    text: Choose a minion. It does not attack this round.
+-
+    id: assassin_basic_3
+    card_type: ability
+    basic: Basic
+    class: assassin
+    name: Quick Strike
+    icon: ranged
+    cooldown: 3
+    attack: 1
+    text: You may take another action.
+
+-
+    id: assassin_item_1
+    card_type: item
+    class: assassin
+    name: Hand Crossbow
+    attack: +1
+    text: "Item"
+-
+    id: assassin_item_2
+    card_type: item
+    class: assassin
+    name: Poison
+    text: "Item\nDestroy: Destroy a damaged minion."
+
+-
+    id: assassin_action_1
+    card_type: item
+    class: assassin
+    name: Crippling Shot
+    cooldown: 4
+    text: "Choose a minion. Its deals 1 less damage this turn."
+-
+    id: assassin_action_2
+    card_type: item
+    class: assassin
+    name:  Ambush
+    cooldown: 3
+    attack: 2
+    text: "You may take another action with no attack value"
+-
+    id: assassin_action_3
+    card_type: item
+    class: assassin
+    name: Lucky Shot
+    cooldown: 3
+    attack: 4
+    text: Skip your next cooldown
+-
+    id: assassin_action_4
+    card_type: item
+    class: assassin
+    name: Double Shot
+    cooldown: 3
+    attack: 2
+    text: This can target 2 minions
+-
+    id: assassin_action_5
+    card_type: item
+    class: assassin
+    name: Impromptu Planning
+    cooldown: 2
+    text: Remove a cooldown counter from a card

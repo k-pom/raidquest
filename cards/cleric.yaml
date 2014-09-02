@@ -1,0 +1,85 @@
+-
+    id: the_cleric
+    card_type: character
+    class: cleric
+    name: The Cleric
+    health: 10
+    threat: 1
+    faith: 7
+    wealth: 2
+-
+    id: cleric_basic_1
+    card_type: ability
+    basic: Basic
+    class: mage
+    name: Smite
+    cooldown: 1
+    attack: 1
+-
+    id: mage_basic_2
+    card_type: ability
+    basic: Basic
+    class: cleric
+    name: Lesser Heal
+    cooldown: 2
+    text: Heal 2
+-
+    id: mage_basic_3
+    card_type: ability
+    basic: Basic
+    class: cleric
+    name: Blessing
+    cooldown: 3
+    text: Minions deal 1 less damage.
+
+
+-
+    id: cleric_item_1
+    card_type: item
+    class: cleric
+    keyword: heal
+    name: Healing Salve
+    text: "Item\nDestroy: Heal 4"
+-
+    id: cleric_item_2
+    card_type: item
+    class: cleric
+    name: Daemonbane
+    attack: +1
+    text: "Item\n"
+-
+    id: cleric_action_1
+    card_type: item
+    class: cleric
+    name: Fury
+    cooldown: 2
+    text: Destroy each minion with 2 or less health
+-
+    id: cleric_action_2
+    card_type: item
+    class: cleric
+    name: Holy Aura
+    cooldown: 3
+    text: Heal 3
+-
+    id: cleric_action_3
+    card_type: item
+    class: cleric
+    name: Inspire Fear
+    cooldown: 3
+    text: Put a minion on the bottom of the minion deck.
+-
+    id: cleric_action_4
+    card_type: item
+    class: cleric
+    name: Divine Strike
+    cooldown: 3
+    attack: 3
+-
+    id: cleric_action_5
+    card_type: item
+    class: cleric
+    name: Drain Essence
+    cooldown: 4
+    attack: 2
+    text: Heal 2

@@ -1,0 +1,90 @@
+
+-
+    id: the_berserker
+    card_type: character
+    class: berserker
+    name: The Berserker
+    health: 15
+    threat: 7
+    faith: 2
+    wealth: 1
+
+-
+    id: berserker_basic_1
+    card_type: ability
+    basic: Basic
+    class: berserker
+    name: Headbutt
+    cooldown: 3
+    attack: 2
+-
+    id: berserker_basic_2
+    card_type: ability
+    basic: Basic
+    class: berserker
+    name: Battle Cry
+    cooldown: 4
+    text: All heroes deal +1 Damage
+-
+    id: berserker_basic_3
+    card_type: ability
+    basic: Basic
+    class: berserker
+    cooldown: 1
+    name: Punch
+    attack: 1
+
+
+-
+    id: berserker_item_1
+    card_type: item
+    class: berserker
+    name: Warhammer
+    attack: +1
+    text: "Item"
+-
+    id: berserker_item_2
+    card_type: item
+    class: berserker
+    name: Rage Potion
+    attack: 4
+    text: "Item - One time use"
+
+-
+    id: berserker_action_1
+    card_type: ability
+    class: berserker
+    name: Charge
+    cooldown: 3
+    attack: 1
+    text: "Damaged minion does not attack this round."
+-
+    id: berserker_action_2
+    card_type: ability
+    class: berserker
+    name: Berserk
+    cooldown: 4
+    attack: X
+    text: X is equal to the amount of damage you have taken
+-
+    id: berserker_action_3
+    card_type: ability
+    class: berserker
+    name: Reckless Attack
+    cooldown: 2
+    attack: 4
+    text: Take 2 damage.
+-
+    id: berserker_action_4
+    card_type: ability
+    class: berserker
+    name: Rage
+    cooldown: 4
+    text: "After you take damage, deal 2 Damage"
+-
+    id: berserker_action_5
+    card_type: ability
+    class: berserker
+    name: Whirlwind
+    cooldown: 3
+    text: Every character takes 1 damage

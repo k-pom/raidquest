@@ -1,0 +1,75 @@
+-
+    id: minion_1
+    faction: necromancer
+    card_type: minion
+    name: Zombie
+    health: 2
+    icon: melee
+    attack: 1
+    text: "Draw an additional minion. Do not level or or draw another minion when Zombie is killed.\nAttacks a hero at random"
+-
+    id: minion_2
+    faction: necromancer
+    card_type: minion
+    name: Goblin Shaman
+    health: 3
+    attack: 2
+    text: Attacks the hero with highest Faith
+-
+    id: minion_3
+    faction: necromancer
+    card_type: minion
+    name: Orc Archer
+    health: 4
+    attack: 3
+    text: Attacks the hero with the highest Threat
+-
+    faction: necromancer
+    id: minion_4
+    card_type: minion
+    name: Troll Warrior
+    icon: melee
+    health: 5
+    attack: 3
+    text: Attacks the hero the highest Wealth
+    defense: 2 Melee Defense
+-
+    id: minion_5
+    faction: necromancer
+    card_type: minion
+    name: Ogre Berserker
+    health: 6
+    attack: 4
+    text: Attacks the hero with the highest health
+-
+    id: minion_6
+    card_type: minion
+    faction: necromancer
+    name: Demon
+    health: 7
+    attack: 4
+    text: Attacks the hero the least Faith
+-
+    id: minion_7
+    card_type: minion
+    faction: necromancer
+    name: Dragon
+    health: 8
+    attack: 5
+    text: Attacks the hero with the most items, or the most wealth if there is a tie.
+-
+    id: minion_8
+    card_type: minion
+    faction: necromancer
+    name: Warlord
+    health: 9
+    text: Each other minion has +3 Attack
+-
+    id: minion_9
+    card_type: minion
+    faction: necromancer
+    name: Necromancer
+    health: 15
+    icon: magic
+    attack: 7
+    text: Attacks a hero at random
