@@ -4,77 +4,121 @@ ability: &ability
         x: 210
         y: 380
         font_size: 18
-        font: FiraSans-Bold
+        font: Verdana
 
     name:
         x: 70
         y: 40
         font_size: 30
         wordwrap: 35
-        font: FiraSans-Bold
+        font: Verdana
 
-    cooldown:
-        x: 20
-        y: 52
-        font_size: 35
-        font: FiraSans-Regular
+
+    cooldown_1:
+        depends_on:
+            attribute: cooldown
+            comparison: ">="
+            value: 1
+        x: 5
+        y: 10
+        source_width: 45
+        source_height: 45
+        source_image: images/icons/cooldown.png
+
+    cooldown_2:
+        depends_on:
+            attribute: cooldown
+            comparison: ">="
+            value: 2
+        x: 5
+        y: 70
+        source_width: 45
+        source_height: 45
+        source_image: images/icons/cooldown.png
+    cooldown_3:
+        depends_on:
+            attribute: cooldown
+            comparison: ">="
+            value: 3
+        x: 5
+        y: 130
+        source_width: 45
+        source_height: 45
+        source_image: images/icons/cooldown.png
+    cooldown_4:
+        depends_on:
+            attribute: cooldown
+            comparison: ">="
+            value: 4
+        x: 5
+        y: 200
+        source_width: 45
+        source_height: 45
+        source_image: images/icons/cooldown.png
+    cooldown_5:
+        depends_on:
+            attribute: cooldown
+            comparison: ">="
+            value: 5
+        x: 5
+        y: 270
+        source_width: 45
+        source_height: 45
+        source_image: images/icons/cooldown.png
 
     basic:
+        font: Verdana
         depends_on:
             attribute: basic
             comparison: present
         x: 70
         y: 60
         font_size: 20
-        font: FiraSans-Bold
 
-    damage_type:
+    health_icon:
         depends_on:
-            attribute: icon
+            attribute: health
             comparison: present
-        x: 20
-        y: 90
-        source_width: 40
-        source_height: 40
-        source_image: data/images/icons/{{icon}}.png
-        render_with_variables: source_image
-
-    special_type:
-        depends_on:
-            attribute: keyword
-            comparison: present
-        x: 20
-        y: 140
-        source_width: 40
-        source_height: 40
-        source_image: data/images/icons/{{keyword}}.png
-        render_with_variables: source_image
+        x: 5
+        y: 10
+        source_width: 60
+        source_height: 60
+        source_image: images/icons/heart.png
 
     health:
-        x: 20
-        y: 52
-        font_size: 45
-        color: red
-        font: FiraSans-Regular
+        x: 37
+        y: 50
+        offset_per_char:
+            x: "-10"
+        font_size: 30
+        font: Verdana
+        color: black
+        # font: FiraSans-Regular
 
     text:
-        x: 20
+        x: 90
         y: 260
-        font_size: 20
-        wordwrap: 30
-        font: FiraSans-Regular
+        font_size: 16
+        wordwrap: 23
+        font: Verdana
+
+    attack_icon:
+        depends_on:
+            attribute: attack
+            comparison: present
+        x: 0
+        y: 260
+        source_width: 80
+        source_height: 80
+        source_image: images/icons/attack.svg
 
     attack:
-        x: 20
-        y: 230
-        font_size: 20
-        font: FiraSans-Regular
-
-    defense:
-        x: 20
-        y: 200
-        font_size: 20
-        font: FiraSans-Regular
+        x: 31
+        y: 318
+        font_size: 30
+        font: Verdana
+        color: white
+        # font: FiraSans-Regular
 
 basic: *ability
 

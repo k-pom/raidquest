@@ -85,6 +85,6 @@
     id: assassin_action_5
     card_type: item
     class: assassin
-    name: Impromptu Planning
+    name: Impromptu Plan
     cooldown: 2
     text: Remove a cooldown counter from a card

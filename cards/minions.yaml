@@ -32,7 +32,6 @@
     health: 5
     attack: 3
     text: Attacks the hero the highest Wealth
-    defense: 2 Melee Defense
 -
     id: minion_5
     faction: necromancer

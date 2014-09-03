@@ -14,7 +14,7 @@
     card_type: ability
     basic: Basic
     class: berserker
-    name: Headbutt
+    name: Power Attack
     cooldown: 3
     attack: 2
 -
@@ -64,7 +64,7 @@
     class: berserker
     name: Berserk
     cooldown: 4
-    attack: X
+    attack: "*"
     text: X is equal to the amount of damage you have taken
 -
     id: berserker_action_3
@@ -78,7 +78,7 @@
     id: berserker_action_4
     card_type: ability
     class: berserker
-    name: Rage
+    name: Enrage
     cooldown: 4
     text: "After you take damage, deal 2 Damage"
 -
